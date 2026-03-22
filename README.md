@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LiveDocs
 
-## Getting Started
+LiveDocs is a fully responsive collaborative document app built with React, Next.js, Typescript and Liveblocks.
 
-First, run the development server:
+Use the app [here](https://live-docs-sepia-six.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Description
+LiveDocs is a fully responsive online word processor that offers a seamless, collaborative writing experience. Much like Google Docs, it empowers users to work together on documents in real time, allowing multiple individuals to edit, comment, and track changes simultaneously. 
+ 
+# Take a Look at the App
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Desktop:
+#### Word processor features
+<kbd>
+<img src="readme-images/desktop_1.png" />
+</kbd>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#### Invite a collaborator
+<kbd>
+<img src="readme-images/desktop_2.png" />
+</kbd>
 
-## Learn More
+#### Commenting in real time
+<kbd>
+<img src="readme-images/desktop_3.png" />
+</kbd>
 
-To learn more about Next.js, take a look at the following resources:
+## Mobile:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### live mockup
+<kbd>
+<img src="readme-images/preview.gif" alt="App Demo" width="300"/>
+</kbd>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+#### Word processor features
+<kbd>
+<img src="readme-images/mobile_1.png" width="300"/>
+</kbd>
 
-## Deploy on Vercel
+#### Invite a collaborator
+<kbd>
+<img src="readme-images/mobile_2.png" width="300"/>
+</kbd>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### Commenting in real time
+<kbd>
+<img src="readme-images/mobile_3.png" width="300"/>
+</kbd>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Tools Used
+
+### Development Environment
+* Node.js
+
+### Libraries & Frameworks
+* React 
+* Next.js
+
+### Development Tools
+* TypeScript - static typing for JavaScript, improves code quality and debugging
+* Clerk - user authentication
+* Liveblocks - real-time collaboration platform 
+* Lexical Editor - high-performance, customizable rich text editor for React
+* ShadCN UI Components - pre-built UI components using React and Tailwind CSS
+* Tailwind CSS - utility-first CSS framework
+* Sentry - real-time error tracking and performance monitoring
+
+### Hosting 
+* Vercel
+
+# Features
+
+### Users are able to:
+
+* Log in securely using Google authentication via Clerk for a seamless and streamlined sign-in experience.
+* Create new collaborative word documents from scratch.
+* Edit documents in real-time with instant, synchronized updates that are visible to all collaborators ensuring smooth collaboration without any delays.
+* Delete documents when no longer needed.
+* Invite collaborators to view or edit documents, easily granting access to the right people at the right time.
+* Comment on specific parts of the text, allowing for focused feedback or discussions that all collaborators can view and respond to in real-time.
+* Add emojis to comments to convey tone, emotions, or reactions, enhancing communication within the document.
+* Tag collaborators within comments, ensuring that specific individuals are notified and can respond directly to relevant parts of the document.
+* Attach files to comments, making it easy to share documents, images, and other resources with collaborators instantly.
+* Leave general comments within the document, providing ongoing feedback that all team members can see and engage with.
+* Receive automatic notifications whenever collaborators are invited, tagged, or when new comments are made keeping everyone in the loop and ensuring timely responses.
