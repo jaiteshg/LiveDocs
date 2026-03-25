@@ -1,4 +1,3 @@
-
 "use client";
 
 import { LiveblocksProvider, ClientSideSuspense} from "@liveblocks/react/suspense"
